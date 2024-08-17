@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hola, MundosE! Paso a la Inmortalidad del Gral. Jose de San Martin\n');
+  res.end('Hola, MundosE! 17/08\n');
 }); 
 
 // Inicia el servidor y escucha en el puerto configurado
